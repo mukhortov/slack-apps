@@ -1,0 +1,8 @@
+{
+  "name": "Slack Apps",
+  "description": "Collection of Slack Apps",
+  "repository": "https://github.com/mukhortov/slack-apps",
+  "logo": "",
+  "keywords": ["node", "express", "heroku", "slack", "slack apps"],
+  "image": "heroku/nodejs"
+}

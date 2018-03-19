@@ -1,0 +1,35 @@
+{
+  "name": "slack-apps",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Slack Apps",
+  "author": "Peter Mukhortov",
+  "license": "MIT",
+  "keywords": [
+    "slack",
+    "slack app"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": "9.8.0"
+  },
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "nodemon test.js",
+    "dev": "concurrently --kill-others-on-fail 'yarn start' 'yarn open'",
+    "open": "sleep 3 && open http://localhost:3000",
+    "commit": "git add . && git commit -am 'automatic commit'",
+    "deploy": "git push heroku master && open https://slack-apps.herokuapp.com",
+    "comloy": "yarn commit && yarn deploy"
+  },
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "concurrently": "^3.5.1",
+    "nodemon": "^1.17.2",
+    "request": "^2.85.0",
+    "tape": "^4.9.0"
+  }
+}
