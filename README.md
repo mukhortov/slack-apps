@@ -5,11 +5,11 @@
 
 ## Running Locally
 
-Make sure you have [Node.js](http://nodejs.org/) installed.
+Make sure you have [Yarn](http://yarnpkg.com) installed.
 
 ```sh
-$ npm install
-$ npm dev
+$ yarn install
+$ yarn dev
 ```
 
 Your app should now be running on [localhost:3000](http://localhost:3000/).
