@@ -40,6 +40,7 @@ $ heroku open
 
  ```/random A, B, C, D```
 
+<img src="screenshot.png" alt="Screenshot" width="421px">
 
 ## Slack API documentation
 https://api.slack.com/slash-commands#responding_to_a_command
