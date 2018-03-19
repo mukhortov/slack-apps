@@ -36,10 +36,10 @@ $ heroku open
 8. Descriptive Label: `List randomizer slash command`
 
 
-## Command example:
+## Command example
 
  ```/random A, B, C, D```
 
 
-## Slack API documentation:
+## Slack API documentation
 https://api.slack.com/slash-commands#responding_to_a_command
